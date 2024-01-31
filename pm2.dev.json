@@ -1,0 +1,14 @@
+{
+    "apps": [
+        {
+            "name": "altifier",
+            "script": "app/server.js",
+            "watch": ["app"],
+            "watch_production": false,
+            "ignore_watch": [
+                "logs",
+                "app/logs"
+            ]
+        }
+    ]
+}

@@ -1,2 +1,3 @@
 # bulk-alts
-Internal tool for generating alt text for images
+
+Web Service for generating text alternatives for images

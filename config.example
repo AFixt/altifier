@@ -1,0 +1,11 @@
+{
+    "resource": "https://{resourceName}.cognitiveservices.azure.com/",
+    "region": "eastus",
+    "key1": "",
+    "key2": "",
+    "apiVersion: "2023-10-01",
+    "features": "tags,read,caption,denseCaptions,objects,people",
+    "modelVersion": "latest",
+    "language": "en",
+    "genderNeutralCaption": false
+}

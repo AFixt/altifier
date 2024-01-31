@@ -1,0 +1,37 @@
+{
+    "name": "bulk-alts",
+    "version": "1.0.0",
+    "description": "A Node script for creating alt text for images",
+    "main": "app/server.js",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/AFixt/bulk-alts.git"
+    },
+    "scripts": {
+        "start": "pm2 start pm2.json",
+        "dev": "pm2-dev start pm2.dev.json",
+        "stop": "pm2 stop pm2.json",
+        "restart": "npm stop && npm start"
+    },
+    "keywords": [
+        "WCAG",
+        "Accessibility"
+    ],
+    "author": {
+        "name": "Karl Groves",
+        "email": "karl.groves@afixt.com",
+        "url": "https://www.afixt.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/AFixt/bulk-alts/issues"
+    },
+    "homepage": "https://github.com/AFixt/bulk-alts#readme",
+    "dependencies": {
+        "axios": "^1.6.7",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "papaparse": "^5.4.1",
+        "pm2": "^5.3.1"
+    }
+}
