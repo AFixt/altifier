@@ -1,11 +1,11 @@
 {
-    "name": "bulk-alts",
+    "name": "altifier",
     "version": "1.0.0",
     "description": "A Node script for creating alt text for images",
     "main": "app/server.js",
     "repository": {
         "type": "git",
-        "url": "git+ssh://git@github.com/AFixt/bulk-alts.git"
+        "url": "git+ssh://git@github.com/AFixt/altifier.git"
     },
     "scripts": {
         "start": "pm2 start pm2.json",
@@ -24,9 +24,9 @@
     },
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/AFixt/bulk-alts/issues"
+        "url": "https://github.com/AFixt/altifier/issues"
     },
-    "homepage": "https://github.com/AFixt/bulk-alts#readme",
+    "homepage": "https://github.com/AFixt/altifier#readme",
     "dependencies": {
         "axios": "^1.6.7",
         "cors": "^2.8.5",
