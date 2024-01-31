@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "altifier",
+            "exec_mode": "cluster",
+            "instances": "max",
+            "script": "app/server.js",
+            "watch": ["app"],
+            "watch_production": false,
+            "ignore_watch": [
+                "logs",
+                "app/logs"
+            ]
+        }
+    ]
+}
